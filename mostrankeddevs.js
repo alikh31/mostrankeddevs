@@ -16,4 +16,7 @@ if (typeof args.city !== 'string') {
 
 config.city = args.city
 
-new Extractor(config)
+const extractor = new Extractor(config)
+extractor.run()
+.then((list) => list.map((dev) => console.log(dev)))
+.catch((e) => console.error(e))
