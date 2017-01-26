@@ -18,7 +18,6 @@
   "license": "ISC",
   "devDependencies": {
     "async": "^2.1.4",
-    "commander": "^2.9.0",
     "coveralls": "^2.11.15",
     "eslint": "^3.14.1",
     "eslint-config-google": "^0.7.1",
@@ -30,6 +29,7 @@
     "should": "^11.1.2"
   },
   "dependencies": {
+    "commander": "^2.9.0",
     "rc": "^1.1.6",
     "request": "^2.79.0",
     "request-promise": "^4.1.1"
