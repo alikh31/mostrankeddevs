@@ -1,0 +1,37 @@
+{
+  "name": "mostrankeddevs",
+  "version": "0.0.1",
+  "description": "CLI tool to get the github users with most stars repos per city",
+  "main": "mostrankeddevs.js ",
+  "scripts": {
+    "test": "gulp test",
+    "coveralls": "gulp cover && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/alikh31/mostrankeddevs"
+  },
+  "keywords": [
+    "github"
+  ],
+  "author": "Ali Khoramshahi",
+  "license": "ISC",
+  "devDependencies": {
+    "async": "^2.1.4",
+    "commander": "^2.9.0",
+    "coveralls": "^2.11.15",
+    "eslint": "^3.14.1",
+    "eslint-config-google": "^0.7.1",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-istanbul": "^1.1.1",
+    "gulp-mocha": "^3.0.1",
+    "nock": "^9.0.2",
+    "should": "^11.1.2"
+  },
+  "dependencies": {
+    "rc": "^1.1.6",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  }
+}
